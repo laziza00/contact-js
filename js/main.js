@@ -73,5 +73,25 @@ if (selectNameval==2) {
             numberNameInput.value= "";
             selectOne.value = "";
         }
-
+if (selectNameval==3) {
+            let box = document.createElement('div');
+        
+                box.innerHTML = `        
+                <div class="contact__item">
+                <div style="display: flex;">
+                <p class="contact__name" id="name">${firstNameval}</p>
+                <p class="contact__name" id="last">${lastNameval}</p>
+                </div>
+        
+                <a class="contact__number" id="number" href="tel:909484704">${numberNameval}</a>
+                <p class="contact__rel" id="relative">Friend</p>
+                </div>`
+                contactItem.appendChild(box);
+                work.appendChild(contactItem)
+        
+                    firstNameInput.value = "";
+                    lastNameInput.value= "";
+                    numberNameInput.value= "";
+                    selectOne.value = "";
+                }
 })
