@@ -30,7 +30,6 @@ let = numberNameval = numberNameInput.value;
 let = selectNameval = selectOne.value;
 
 
-
 if (selectNameval==1) {
     let box = document.createElement('div');
 
